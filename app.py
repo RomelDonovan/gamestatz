@@ -10,7 +10,7 @@ def retrieve_data(username, tag):
     print("Username: ", data["data"]["name"] + "#" + data["data"]["tag"])
     print("Rank: ", data["data"]["current_data"]["currenttierpatched"] + " RR: ", data["data"]["current_data"]["ranking_in_tier"])
 
-# win/lose, K/D, Headshot%, MMR
+# win/lose, MMR
 def parse_data():
     pass
 
